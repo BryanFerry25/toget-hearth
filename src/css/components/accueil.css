@@ -101,6 +101,66 @@
 .rotate{
     transform: rotate(180deg);
     
+}
+
+.accueil__plante2{
     
+    text-align: right;
+    margin-top: -77vh;
+    position: relative;
+    z-index: 2;
+}
+
+.accueil__user{
+    text-align: center;
+}
+
+.intro__2{
+    margin-top: -26vh;
+}
+
+
+.accueil__nous{
+    display: flex;
+    justify-content: space-around;
     
+}
+.accueil__notrepresentation{
+    
+    background-image: url(../../../public/images/card.jpg);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    
+    box-shadow: 14px 10px 21px rgba(0, 0, 0, 0.25);
+    
+ 
+    text-align: center;
+
+    padding: 3vh 7vh;
+}
+
+.accueil__formation{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.35rem;
+    margin-top: -3vh;
+    margin-bottom: 8vh;
+}
+.accueil__nom{
+    font-size: 2.9rem;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    
+}
+
+.accueil__petitepresentation{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: left;
+    
+}
+.accueil__photo{
+    text-align: center;
 }

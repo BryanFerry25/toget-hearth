@@ -21,3 +21,11 @@
   font-style: normal;
   font-display: block;
 }
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("../../fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
