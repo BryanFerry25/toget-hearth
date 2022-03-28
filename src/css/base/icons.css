@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Asap', sans-serif;
+  src: url("../../fonts//Asap-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("../../fonts/Poppins-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url("../../fonts/Poppins-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}

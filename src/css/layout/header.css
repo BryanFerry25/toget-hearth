@@ -1,0 +1,59 @@
+.header__object {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 80px 90px 80px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.1rem;
+    
+    
+}
+
+.header__main{
+    display: flex;
+   
+}
+
+
+
+
+.header__text{
+    display: flex;
+    gap: 35px;
+}
+
+.header__logo{
+    width: 15vh;
+}
+
+.header__plante{
+    width: 50vh;
+    margin-right: 30vh;
+}
+
+.header__tagline{
+    font-size: 1.9rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding-right: 45vh;
+    margin-top: 10vh;
+}
+
+
+.header__important{
+    color: #45D475;
+}
+
+.header__button{
+    color: white;
+    text-shadow: 0px 0px 3px #FFFFFF;
+    font-size: 1.3rem;
+    height: 8vh;
+    width: 45vh;
+    background-color: #45D475;
+    border-radius: 40px;
+    font-size: 1.3rem;
+    box-shadow: 0px 4.20338px 4.20338px rgba(0, 0, 0, 0.25);
+    margin: 10vh 0 0 25vh;
+}

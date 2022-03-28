@@ -1,0 +1,27 @@
+
+/*librairie*/
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+/* Vendors */
+@import url('vendors/normalize.css');
+
+/* Variables */
+@import url('utils/variables.css');
+
+/*base*/
+@import url('base/main.css');
+
+@import url('base/media.css');
+
+/*layout*/
+@import url('layout/header.css');
+@import url('layout/footer.css');
+
+/*components*/
+@import url('components/accueil.css');
+
+

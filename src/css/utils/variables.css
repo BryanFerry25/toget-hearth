@@ -1,0 +1,34 @@
+:root {
+    /* Color styles */
+    --base-fond: rgba(255, 247, 229, 1);
+    --clair-beige: rgba(255, 242, 213, 1);
+    --clair-peau: rgba(250, 229, 174, 1);
+    --clair-cacao: rgba(220, 185, 131, 1);
+    --clair-chocolat: rgba(187, 143, 98, 1);
+    --foncé-marron: rgba(84, 55, 41, 1);
+    --foncé-marron2: rgba(52, 33, 26, 1);
+
+    /* Text-size styles */
+    /* base size: texte-article (14px) */
+    --texte-article: 1rem;
+    --chapeau: 1.14rem;
+    --titre-article: 1.86rem;
+    --sous-titre: 1.36rem;
+    --texte-bloc-note: 1rem;
+    --texte-glossaire: 1.86rem;
+    --titre-glossaire: 2.14rem;
+    --texte-galerie: 1rem;
+    --legende: 0.71rem;
+
+
+    /* Font-family styles */
+    --font-poppins: 'Poppins', sans-serif;
+    --font-asap: 'Asap', sans-serif;
+
+
+    /* Espaces */
+    --space1x: 8px;
+    --space2x: 16px;
+    --space3x: 24px;
+    --space4x: 48px;
+  }
