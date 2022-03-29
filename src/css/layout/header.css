@@ -72,3 +72,9 @@
   .header__condition:hover ,.header__contact:hover{
     opacity: 0.5;
   }
+
+
+  .header__contact{
+      position: relative;
+      z-index: 10;
+  }

@@ -3,25 +3,71 @@
     text-align: center;
     margin-top: -20vh;
     position: absolute;
+
     left: 0;
     right: 0;
+    
+   
+
+ 
 }
 .mention__titre{
+
     font-family: 'Asap', sans-serif;
     font-weight: 500;
     text-align: center;
     position: absolute;
     
-    margin-top: 20vh;
+    margin-top: 22vh;
     z-index: 4;
     left: 0;
     right: 0;
+    font-size: 2.5rem;
 
 
 }
 .mention__titre2{
-    margin-top: 27vh;
+    margin-top: 29vh;
 }
 
 
 
+.mention__titrebloc{
+    margin-bottom: 730px;
+}
+
+.mention__legale {
+    float: left;
+    margin-right: 10px;
+    font-family: 'Asap', sans-serif;
+    font-weight: 500;
+    font-size: 40px; 
+
+    margin-left: 85px;
+    margin-bottom: 0px;
+}
+
+.mention__rond {
+    width: 46px;
+    height: 46px;
+
+    margin-top: 35px;
+}
+
+.mention__text, .mention__infocontact,.mention__infoperso{
+    margin-top: 5vh;
+    margin-left: 85px;
+    margin-right: 85px;
+    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.mention__infoperso {
+    font-family:'Poppins', sans-serif;
+    font-weight: 300;
+    line-height: 0.2rem;
+
+
+
+}

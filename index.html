@@ -25,7 +25,7 @@
 
         <img class="header__logo" src="public/icones/logo.svg" alt="logo Toget'Hearth">
 
-        <ul class="header__text">
+        <ul id="accueil" class="header__text">
           <a class="header__contact" href="#contacter"> Nous contacter</a>
           <a class="header__condition" href="mention.html">Condition général d'utilisation</a>
         </ul>
@@ -54,7 +54,7 @@
         <div class="accueil__presentation">
 
           <div class="accueil__intro">
-            <p class="accueil__titrepartie">C'est quoi ?</p>
+            <p id="cestquoi" class="accueil__titrepartie">C'est quoi ?</p>
 
            
             <img  src="public/icones/ligne.png" alt="ligne">
@@ -66,7 +66,7 @@
             <div class="accueil__card accueil__card1">
 
               <h2 class="accueil__titrecard">Des conseils et des astuces  </h2>
-              <p class="accueil__textcard">Nous vous proposons de nombreux <span class="accueil__motimportant"> articles</span> avec des <span class="accueil__motimportant"> conseils </span> et des astuces pour pouvoir aider au mieux la planète.</p>
+              <p class="accueil__textcard">Nous vous proposons de nombreux <span class="motimportant"> articles</span> avec des <span class="motimportant"> conseils </span> et des astuces pour pouvoir aider au mieux la planète.</p>
               <div class="accueil__imgcard">
                 <img src="public/icones/image_astuce.svg" alt="image avec main">
               </div>
@@ -76,15 +76,15 @@
             <div class="accueil__card accueil__card2">
 
               <h2 class="accueil__titrecard">Des événements</h2>
-              <p class="accueil__textcard">Nous vous proposons de créer vos propres opérations de ramassages avec un <span class="accueil__motimportant"> calendrier </span> regroupant tous les événements au cours de l’année. </p>
-              <p class="accueil__textcard"> Créez un équipe ou rejoignez un groupe pour<span class="accueil__motimportant"></span>collecter </span>  un maximum de déchets. </p>
+              <p class="accueil__textcard">Nous vous proposons de créer vos propres opérations de ramassages avec un <span class="motimportant"> calendrier </span> regroupant tous les événements au cours de l’année. </p>
+              <p class="accueil__textcard"> Créez un équipe ou rejoignez un groupe pour<span class="motimportant"></span>collecter </span>  un maximum de déchets. </p>
 
             </div>
 
             <div class="accueil__card accueil__card3">
               <h2 class="accueil__titrecard">Des défis à réaliser  </h2>
-              <p class="accueil__textcard">Dans ce site, chaque semaine nous vous proposons différents <span class="accueil__motimportant">défis</span> à réaliser pour contribuer à l’amélioration de l’environnement.</p> 
-              <p class="accueil__textcard"> Vous pouvez, nous <span class="accueil__motimportant">partager</span> vos réussites dans un espace dédié. Lorsque nous validons le défi vous accumulerez des points pour choisir par la suite une des <span class="accueil__motimportant">récompenses</span> proposées !</p>
+              <p class="accueil__textcard">Dans ce site, chaque semaine nous vous proposons différents <span class="motimportant">défis</span> à réaliser pour contribuer à l’amélioration de l’environnement.</p> 
+              <p class="accueil__textcard"> Vous pouvez, nous <span class="motimportant">partager</span> vos réussites dans un espace dédié. Lorsque nous validons le défi vous accumulerez des points pour choisir par la suite une des <span class="motimportant">récompenses</span> proposées !</p>
 
             </div>
 
@@ -96,7 +96,7 @@
         
 
         <div class="accueil__intro intro__2">
-          <p class="accueil__titrepartie">Qui sommes-nous ?</p>
+          <p  class="accueil__titrepartie">Qui sommes-nous ?</p>
 
          
           <img  src="public/icones/ligne.png" alt="ligne">
@@ -116,7 +116,7 @@
           <img  src="public/images/plante2.svg" alt="plante">
         </div>
       
-        <div class="accueil__nous">
+        <div id="quisommesnous" class="accueil__nous">
 
             <div class="accueil__notrepresentation">
               <div class="accueil__photo">
@@ -187,13 +187,13 @@
               <input type="text" id="sujet" name="sujet" placeholder="Votre prénom">
           
               <label for="emailAddress">Email</label>
-              <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+              <input id="emailAddress" type="email" name="email" placeholder="Votre email" required>
           
           
               <label for="subject">Message</label>
               <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
 
-              <input class="condutilisation" type="checkbox"> J’accepte les conditions d’utilisations 
+              <input class="condutilisation" type="checkbox" required> J’accepte les conditions d’utilisations 
               <div class="sendbutton">
               <input type="submit" value="Envoyer">
               </div>
@@ -236,10 +236,10 @@
       
         <ul class="menu">
             <li><a href="#">Accueil</a></li>
-            <li><a href="#">C'est quoi ?</a></li>
-            <li><a href="#">Qui sommes nous ? </a></li>
-            <li><a href="#">Mentions légales </a></li>
-            <li><a href="#">Nous contacter </a></li>
+            <li><a href="#cestquoi">C'est quoi ?</a></li>
+            <li><a href="#quisommesnous">Qui sommes nous ? </a></li>
+            <li><a href="mention.html">Mentions légales </a></li>
+            <li><a href="#contacter">Nous contacter </a></li>
             
         </ul>
 
@@ -250,7 +250,7 @@
          
       
   
-    </footer>
+    
       
     
     
