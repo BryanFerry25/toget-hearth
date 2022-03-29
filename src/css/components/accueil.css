@@ -80,10 +80,10 @@
 }
 
 .accueil__textcard{
-    font-size: 1.1rem;
+    font-size: 1.12rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    line-height: 2rem;
+    line-height: 2.1rem;
     margin-bottom: 40px;
 }
 
@@ -138,7 +138,7 @@
  
     text-align: center;
 
-    padding: 3vh 5vw;
+    padding: 3vh 4vw;
    
 }
 
@@ -147,7 +147,7 @@
     font-weight: 400;
     font-size: 1.35rem;
     margin-top: -3vh;
-    margin-bottom: 17vh;
+    margin-bottom: 10vh;
 }
 .accueil__nom{
     font-size: 2.9rem;
@@ -159,8 +159,10 @@
 .accueil__petitepresentation{
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.11rem;
     text-align: left;
+    line-height: 1.5rem;
+    margin-top: 20vh;
     
 }
 .accueil__photo{

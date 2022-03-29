@@ -51,10 +51,12 @@ footer .social_icon li a:hover {
 footer .menu li a {
     font-size: 1.2em;
     color: #FFF;
-    margin: 0 10px;
+    margin: 30px 50px;
     display: inline-block;
     text-decoration: none;
     opacity: 0.75;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
 }
 
 footer .menu li a:hover {
@@ -66,7 +68,9 @@ footer p {
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.1em;   
+    font-size: 1.1em;
+
+
 }
 
 footer .wave {
@@ -133,6 +137,5 @@ footer .wave#wave4 {
 .footer__mention{
     margin-top: 40px;
 }
-.footer__reseaux{
-    gap: 30px;
-}
+
+
