@@ -1,5 +1,9 @@
 
+form{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
 
+}
 .forme__verte{
 
     
@@ -81,4 +85,15 @@
     background: #C4DCBE;
     box-shadow: inset 6.99917px 4.66611px 3.11074px rgba(0, 0, 0, 0.25);
   }
- 
+ .condutilisation{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+
+ }
+
+
+ .condutilisation{
+    scale: 1.5;
+    margin: 5vh 2vh ;
+
+}
