@@ -1,0 +1,84 @@
+
+
+.forme__verte{
+
+    
+    text-align: right;
+    
+    position: absolute;
+    top: 450vh;;
+    z-index: -2;
+    right: 0;
+
+    width:80vh;
+
+
+}
+  
+  input[type=text], textarea, input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid C4DCBE;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    margin-right: 0px;
+    margin-left: 0px;
+    resize: vertical;
+    background-color: #F4FAF3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    border-radius:20px;
+    
+  }
+  label{margin-right: 0px;
+    margin-left: 0px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    
+   }
+  
+  input[type=submit] {
+    background-color: #45D475;
+    color: white;
+    padding: 12px 45px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: #F4FCEE;
+
+    text-shadow: 0px 0px 4.77931px #FFFFFF;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 3.34821px 3.34821px rgba(0, 0, 0, 0.25);
+    
+    
+  }
+  
+.sendbutton{
+    text-align: center;
+}
+
+  input[type=submit]:hover {
+    background-color: #1fa126;
+  }
+  
+  .formulaire {
+    
+    box-sizing : border-box;
+    border-radius:20px;
+    background-color:#C4DCBE;
+    padding:50px;
+    width: 100%;
+   
+    max-width: 550px;
+    margin:0 auto;
+    background: #C4DCBE;
+    box-shadow: inset 6.99917px 4.66611px 3.11074px rgba(0, 0, 0, 0.25);
+  }
+ 
