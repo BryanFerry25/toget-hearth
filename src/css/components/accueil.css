@@ -123,13 +123,15 @@
 .accueil__nous{
     display: flex;
     justify-content: space-around;
+    gap: 5vh;
+    padding: 2vh 5vh;
     
 }
 .accueil__notrepresentation{
     
     background-image: url(../../../public/images/card.jpg);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-position: center;
     
     box-shadow: 14px 10px 21px rgba(0, 0, 0, 0.25);
@@ -137,7 +139,8 @@
  
     text-align: center;
 
-    padding: 3vh 7vh;
+    padding: 3vh 5vw;
+   
 }
 
 .accueil__formation{
@@ -145,7 +148,7 @@
     font-weight: 400;
     font-size: 1.35rem;
     margin-top: -3vh;
-    margin-bottom: 8vh;
+    margin-bottom: 17vh;
 }
 .accueil__nom{
     font-size: 2.9rem;
