@@ -36,7 +36,7 @@
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    padding-right: 45vh;
+    
     margin-top: 10vh;
 }
 
@@ -61,6 +61,7 @@
 
 .header__maintitre{
     margin-bottom: 14vh;
+    margin-right: 45vh;
 }
 
 
