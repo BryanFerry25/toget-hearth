@@ -78,3 +78,12 @@
       position: relative;
       z-index: 10;
 }
+
+
+.header__logo{
+    min-width:15%;
+    min-height:15%;
+    position: relative;
+    z-index: 5;
+
+}
